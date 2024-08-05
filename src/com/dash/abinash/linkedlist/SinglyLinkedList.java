@@ -37,11 +37,10 @@ public class SinglyLinkedList<T> {
  
 	/**
 	 * Inserts the specified element at the specified position in this list
-	 * @param index
-	 * @param t
+	 * @param index 
+	 * @param t     
 	 */
 	public void add(int index, T t) {
-		
 	}
 	
 	/**
@@ -50,29 +49,7 @@ public class SinglyLinkedList<T> {
 	 * @return
 	 */
 	public boolean addFirst(T t) { 
-		
-		if (t == null)
-			return false;
-		
-		
-		// Create a node
-		LinkedListNodes.SinglyLinkedListNode<T> node = nodes.new SinglyLinkedListNode<T>(t);
-		
-		// 
-		if (head == null) {
-			head = node;
-			return true;
-			
-		}
-		
-		//
-		node.next = head;
-		
-		//
-		head = node;
-		
-		
-		return true;
+		return false;
 	}
 	
 	/**
@@ -237,7 +214,6 @@ public class SinglyLinkedList<T> {
 	 * @return
 	 */
 	public int size() {
-		
 		return 0;
 	}
 	
